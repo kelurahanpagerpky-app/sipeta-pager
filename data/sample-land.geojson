@@ -1,0 +1,219 @@
+{
+  "type": "FeatureCollection",
+  "name": "sample-land (DEMO)",
+  "_catatan": "DATA DEMONSTRASI FIKTIF - bukan data tanah, bukan lokasi, dan bukan batas administrasi yang sebenarnya. Poligon ini hanya contoh bentuk dan tidak menunjukkan lokasi bidang tanah nyata. Setiap Feature wajib memiliki properties.id_bidang yang sudah ada di database.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id_bidang": "PGR-000001",
+        "catatan": "DEMO - bukan lokasi nyata"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.92,
+              -2.2103
+            ],
+            [
+              113.9204,
+              -2.2103
+            ],
+            [
+              113.9204,
+              -2.21
+            ],
+            [
+              113.92,
+              -2.21
+            ],
+            [
+              113.92,
+              -2.2103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_bidang": "PGR-000002",
+        "catatan": "DEMO - bukan lokasi nyata"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.9206,
+              -2.21032
+            ],
+            [
+              113.92102,
+              -2.21032
+            ],
+            [
+              113.92102,
+              -2.21
+            ],
+            [
+              113.9206,
+              -2.21
+            ],
+            [
+              113.9206,
+              -2.21032
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_bidang": "PGR-000003",
+        "catatan": "DEMO - bukan lokasi nyata"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.9212,
+              -2.2103
+            ],
+            [
+              113.92165,
+              -2.21028
+            ],
+            [
+              113.9216,
+              -2.21
+            ],
+            [
+              113.92125,
+              -2.21002
+            ],
+            [
+              113.9212,
+              -2.2103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_bidang": "PGR-000004",
+        "catatan": "DEMO - bukan lokasi nyata"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.9218,
+              -2.21028
+            ],
+            [
+              113.9222,
+              -2.21028
+            ],
+            [
+              113.9222,
+              -2.21
+            ],
+            [
+              113.9218,
+              -2.21
+            ],
+            [
+              113.9218,
+              -2.21028
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_bidang": "PGR-000005",
+        "catatan": "DEMO - bukan lokasi nyata"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.92,
+              -2.2108
+            ],
+            [
+              113.9204,
+              -2.2108
+            ],
+            [
+              113.9204,
+              -2.21065
+            ],
+            [
+              113.92022,
+              -2.21065
+            ],
+            [
+              113.92022,
+              -2.2105
+            ],
+            [
+              113.92,
+              -2.2105
+            ],
+            [
+              113.92,
+              -2.2108
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_bidang": "PGR-000006",
+        "catatan": "DEMO - bukan lokasi nyata"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.9206,
+              -2.21077
+            ],
+            [
+              113.92098,
+              -2.21077
+            ],
+            [
+              113.92098,
+              -2.2105
+            ],
+            [
+              113.9206,
+              -2.2105
+            ],
+            [
+              113.9206,
+              -2.21077
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+﻿nomor_surat,jenis_surat,nama_pemilik,nik,alamat_pemilik,alamat_objek,rt,rw,panjang_meter,lebar_meter,luas_dokumen_m2,tanggal_surat,penggunaan_tanah,keterangan,sumber_data
+CONTOH-SPT-001/2025,SPT,Warga Contoh 1 (DEMO),9999000000000001,Alamat fiktif A (DEMO),"Jalan Contoh Satu, RT 01 (DEMO)",1,1,30,15,450,2025-01-15,Pekarangan / rumah tinggal,Data contoh. Luas dokumen sengaja berbeda dari luas peta.,Data demonstrasi fiktif
+CONTOH-SHM-002/2025,SHM,Warga Contoh 2 (DEMO),9999000000000002,Alamat fiktif B (DEMO),"Jalan Contoh Dua, RT 01 (DEMO)",1,1,42,30,1260,2025-02-03,Kebun,Data contoh.,Data demonstrasi fiktif
+CONTOH-SPT-003/2025,SPT,Warga Contoh 3 (DEMO),9999000000000003,Alamat fiktif C (DEMO),"Jalan Contoh Tiga, RT 02 (DEMO)",2,1,,,1500,2025-02-20,Kebun,Data contoh: bentuk bidang tidak persegi panjang.,Data demonstrasi fiktif
+CONTOH-SHM-004/2025,SHM,Warga Contoh 4 (DEMO),,Alamat fiktif D (DEMO),"Jalan Contoh Empat, RT 02 (DEMO)",2,1,,,,,,"Data contoh: belum lengkap (tanpa NIK, luas, dan tanggal surat).",Data demonstrasi fiktif
+CONTOH-SPT-005/2025,SPT,Warga Contoh 5 (DEMO),9999000000000005,Alamat fiktif E (DEMO),"Jalan Contoh Lima, RT 03 (DEMO)",3,2,,,1900,2025-03-11,Pekarangan,Data contoh: bentuk L.,Data demonstrasi fiktif
+CONTOH-LNY-006/2025,LAINNYA,Warga Contoh 6 (DEMO),9999000000000006,Alamat fiktif F (DEMO),"Jalan Contoh Enam, RT 03 (DEMO)",3,2,35,28,980,2025-03-30,Lahan usaha,Data contoh: dokumen jenis lain.,Data demonstrasi fiktif
+CONTOH-SPT-007/2025,SPT,Warga Contoh 7 (DEMO),9999000000000007,Alamat fiktif G (DEMO),"Jalan Contoh Tujuh, RT 04 (DEMO)",4,2,,,,2025-04-02,,Data contoh: belum memiliki poligon dan belum lengkap.,Data demonstrasi fiktif
+CONTOH-SHM-008/2025,SHM,Warga Contoh 8 (DEMO),9999000000000008,Alamat fiktif H (DEMO),"Jalan Contoh Delapan, RT 04 (DEMO)",4,2,50,20,1000,2025-04-18,Pekarangan,"Data contoh: lengkap, belum memiliki poligon.",Data demonstrasi fiktif

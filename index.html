@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net https://accounts.google.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://accounts.google.com; img-src 'self' data: blob: https://tile.openstreetmap.org https://cdn.jsdelivr.net; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://accounts.google.com; frame-src https://accounts.google.com; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="SIPETA PAGER: sistem informasi inventarisasi dan pemetaan tanah masyarakat Kelurahan Pager, Kecamatan Rakumpit, Kota Palangka Raya.">
+<meta name="theme-color" content="#14532d">
+<title>SIPETA PAGER</title>
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-draw@1.0.4/dist/leaflet.draw.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Lompat ke konten</a>
+<div id="loadingBar" class="loading-bar" aria-hidden="true"></div>
+
+<header class="topbar no-print">
+  <div class="brand">
+    <img src="assets/img/favicon.svg" alt="" width="36" height="36">
+    <div class="brand-text">
+      <strong>SIPETA PAGER</strong>
+      <span>Kelurahan Pager · Kec. Rakumpit · Kota Palangka Raya</span>
+    </div>
+  </div>
+  <nav id="mainNav" class="main-nav" aria-label="Menu utama"></nav>
+  <div id="userBox" class="user-box"></div>
+</header>
+
+<div id="modeBanner" class="mode-banner no-print" role="status" hidden></div>
+
+<main id="main" class="main" tabindex="-1">
+  <noscript><div class="notice">Aplikasi ini memerlukan JavaScript. Aktifkan JavaScript di browser Anda.</div></noscript>
+  <div id="bootMsg" class="boot-msg">Memuat aplikasi…</div>
+  <section id="view-dashboard" class="view" aria-live="polite"></section>
+  <section id="view-peta" class="view view-map"></section>
+  <section id="view-inventaris" class="view"></section>
+  <section id="view-laporan" class="view"></section>
+  <section id="view-admin" class="view"></section>
+</main>
+
+<aside id="detailPanel" class="detail-panel no-print" role="complementary" aria-label="Detail bidang tanah"></aside>
+<div id="modalRoot"></div>
+<div id="toastRoot" class="toast-root" aria-live="polite"></div>
+
+<footer class="footer no-print">
+  <span>SIPETA PAGER · Data pertanahan bersifat administratif, bukan kepastian hukum hak atas tanah. Data pribadi dilindungi sesuai UU No. 27 Tahun 2022.</span>
+  <span>Peta dasar © kontributor <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a></span>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/demo.js"></script>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/maplogic.js"></script>
+<script src="assets/js/detail.js"></script>
+<script src="assets/js/inventory.js"></script>
+<script src="assets/js/map.js"></script>
+<script src="assets/js/dashboard.js"></script>
+<script src="assets/js/reports.js"></script>
+<script src="assets/js/admin.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "name": "sample-boundary (DEMO)",
+  "_catatan": "DATA DEMONSTRASI FIKTIF - bukan data tanah, bukan lokasi, dan bukan batas administrasi yang sebenarnya. Area ini hanyalah persegi panjang contoh. Untuk penggunaan nyata, impor batas resmi Kelurahan Pager dari sumber yang sah (mis. instansi pertanahan/pemerintah daerah).",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nama_wilayah": "AREA DEMO - BUKAN BATAS KELURAHAN PAGER",
+        "sumber_data": "DATA DEMO - BUKAN BATAS RESMI",
+        "status": "DEMO"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.919,
+              -2.2118
+            ],
+            [
+              113.9256,
+              -2.2118
+            ],
+            [
+              113.9256,
+              -2.2092
+            ],
+            [
+              113.919,
+              -2.2092
+            ],
+            [
+              113.919,
+              -2.2118
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
