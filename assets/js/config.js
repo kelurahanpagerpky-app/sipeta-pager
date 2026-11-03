@@ -9,7 +9,7 @@
 window.SIPETA_CONFIG = {
   // "demo"       = data fiktif lokal, tidak memanggil backend, tidak menulis ke spreadsheet.
   // "production" = membaca/menulis data nyata melalui Google Apps Script.
-  MODE: 'demo',
+  MODE: 'production',
 
   API_URL: 'https://script.google.com/macros/s/AKfycbzr48qRwS-yu7Emeu3kFc7iCBFtwKzgWzqpddONE7luMqxzFcSR3gF8l1kN_5pZe4hK/exec',
   GOOGLE_CLIENT_ID: '1066788129165-3rh2ptnjter0a8g8mehpu7nkmdcnon1b.apps.googleusercontent.com',
